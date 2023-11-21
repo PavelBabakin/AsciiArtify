@@ -14,18 +14,33 @@
 minikube start
 kubectl create deployment hello-minikube --image=k8s.gcr.io/echoserver:1.4
 kubectl expose deployment hello-minikube --type=NodePort --port=8080
+kubectl get deployments
+kubectl get pods
+kubectl get services
 ```
+
+![Image](.data/minikube-example.gif)
 
 ### Kind
 ```
 kind create cluster
 kubectl create deployment hello-kind --image=k8s.gcr.io/echoserver:1.4
 kubectl expose deployment hello-kind --type=NodePort --port=8080
+kubectl get deployments
+kubectl get pods
+kubectl get services
 ```
+
+![Image](.data/kind-example.gif)
 
 ### k3d
 ```
 k3d cluster create mycluster
 kubectl create deployment hello-k3d --image=k8s.gcr.io/echoserver:1.4
 kubectl expose deployment hello-k3d --type=NodePort --port=8080
+kubectl get deployments
+kubectl get pods
+kubectl get services
 ```
+
+![Image](.data/k3d-example.gif)
