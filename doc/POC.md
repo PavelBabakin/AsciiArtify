@@ -22,4 +22,4 @@
     ![image](.data/8.png)
 
 Demo video
-![demo video](.data/demo.png)
+![demo video](.data/demo.gif)
