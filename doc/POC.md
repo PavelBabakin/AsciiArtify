@@ -23,4 +23,4 @@
 
 ## Demo video
 
-![demo video](.data/demo.gif)
+![demo video](.data/poc.gif)
