@@ -17,5 +17,9 @@
     - At first we should run ```kubectl port-forward svc/argocd-server -n argocd 8080:443``` to have access from browser to ArgoCD GUI.
     ![image](.data/6.png)
     - Accept self-signed certificate for and we need to enter ```admin``` as username and ```<PASSWORD>``` as a password (output of step 5).
+    ![image](.data/8.png)
     - When we enter into GUI we will see project ```asciiartify```.
-    ![image](.data/7.png)
+    ![image](.data/8.png)
+
+Demo video
+![demo video](.data/demo.png)
