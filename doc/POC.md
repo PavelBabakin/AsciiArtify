@@ -21,5 +21,6 @@
     - When we enter into GUI we will see project ```asciiartify```.
     ![image](.data/8.png)
 
-Demo video
+## Demo video
+
 ![demo video](.data/demo.gif)
